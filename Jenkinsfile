@@ -14,4 +14,7 @@ pipeline {
       }
     }
   }
+  environment {
+    https_proxy = '10.144.1.10:8080'
+  }
 }
